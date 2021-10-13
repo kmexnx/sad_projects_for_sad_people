@@ -11,7 +11,6 @@ def binaryStupidSearch(length, magicNumber):
 
     print(list);
     middle = int(len(list) / 2);
-    a = list[middle]
     for i in list:
         
         if(list[middle] <= magicNumber):
